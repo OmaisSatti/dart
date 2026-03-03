@@ -1,0 +1,51 @@
+✅ 1️⃣ File Naming in Dart
+Dart uses:
+snake_case.dart
+user_model.dart
+login_screen.dart
+api_service.dart
+
+✅ 2️⃣ Class Naming
+Dart uses:
+PascalCase
+class UserModel {
+}
+
+
+✅ 3️⃣ Function Naming
+Dart uses:
+camelCase
+void getUserData() {
+}
+
+✅ 4️⃣ Variable Naming
+Also:
+camelCase
+String firstName = "Omais";
+int totalCount = 10;
+
+
+✅ 5️⃣ Constant Naming
+Dart prefers:
+camelCase
+const piValue = 3.14;
+const PI_VALUE = 3.14; // Not recommended in Dart
+
+
+✅ 6️⃣ Private Variables (Important Difference ⚠️)
+In Dart:
+Private = _ underscore
+String _token = "abc123";
+
+
+✅ 7️⃣ Getters & Setters
+Dart style:
+class User {
+  String _name = "";
+
+  String get name => _name;
+
+  set name(String value) {
+    _name = value;
+  }
+}
